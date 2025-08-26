@@ -1,0 +1,46 @@
+# --- Python bytecode / cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+
+# --- OS / Editors ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# --- Tests / Coverage ---
+.pytest_cache/
+.coverage*
+htmlcov/
+.hypothesis/
+.cache/
+
+# --- Type/style caches (safe to keep even if not used) ---
+.mypy_cache/
+.ruff_cache/
+
+# --- Build artifacts ---
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# --- Local config & secrets (keep examples) ---
+.env
+*.local
+config.json
+config/*.json
+!.env.example
+!config.example.json
+
+# --- Logs ---
+*.log
+
+# --- Tox / misc ---
+.tox/
